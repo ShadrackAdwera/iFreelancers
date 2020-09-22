@@ -16,7 +16,20 @@ body {
   height: 527px;
   padding: 20px;
   width: 100%;
-  box-sizing: border-box;
+}
+.main-header {
+  width: 100%;
+  background:  #fa923f;
+  padding: 8px 16px;
+}
+.main-header > div {
+  display: inline-block;
+}
+.main-nav {
+  display: inline-block;
+}
+.main-nav__item {
+  display: inline-block;
 }
 
 
