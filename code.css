@@ -4,7 +4,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0;
 }
 
 .section-title {
@@ -46,17 +45,29 @@ body {
 .main-nav__item {
   display: inline-block;
 }
+
 .main-nav__item a {
   text-decoration: none;
   color: #310330;
   margin: 0 16px;
+  padding: 3px 0;
 }
-.main-nav__item a:hover {
+.main-nav__item a:hover,
+.main-nav__item a:active
+{
   color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
 }
 
-.main-nav__item a:active {
-  color: whitesmoke;
+.main-nav__item--cta a{
+ color: whitesmoke;
+ background: #310330;
+ padding: 8px 16px;
+ border-radius: 8px; 
 }
-
-
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+  background: #ffffff;
+  color: #310330;
+  border: none;
+}
