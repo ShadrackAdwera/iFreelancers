@@ -11,7 +11,8 @@ body {
 }
 
 #product-overview {
-  background: #521751;
+  background: url('log.jpeg');
+  color: #fa923f;
   height: 527px;
   padding: 20px;
   width: 100%;
