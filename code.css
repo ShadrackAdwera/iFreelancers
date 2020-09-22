@@ -20,7 +20,11 @@
   display: inline-block;
   width: 30%;
   vertical-align: middle;
+  transition: transform .7s;
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+.plan:hover {
+  transform: scale(1.08)
 }
 
 .plan--highlighted {
@@ -49,6 +53,11 @@ color: #633006;
 }
 .plan__price {
   color: #2b1c0f;
+}
+.plan-list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 .plan__features {
