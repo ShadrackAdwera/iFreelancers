@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.button {
+    background:#fa923f;
+    color: #521751;
+    font: inherit;
+    border: 1.5px solid #521751;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+  }
+  .button:hover,
+  .button:active {
+    cursor: pointer;
+    color:#fa923f;
+    background: #521751;
+  }
+  .button:focus {
+    outline: none;
+  }
+  
+  
+  .main-header {
+    width: 100%;
+    padding: 8px 16px;
+  }
+  .main-header__brand {
+    color: #521751;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  .main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: calc(100% - 126px);
+  }
+  .main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .main-nav__item {
+    display: inline-block;
+  }
+  
+  .main-nav__item a {
+    text-decoration: none;
+    color: #521751;
+    margin: 0 16px;
+    padding: 3px 0;
+  }
+  .main-nav__item a:hover,
+  .main-nav__item a:active
+  {
+    color: #fa923f;
+    border-bottom: 2px solid #fa923f;
+  }
+  
+  .main-nav__item--cta a{
+   color: #fa923f;
+   background: #310330;
+   padding: 8px 16px;
+   border-radius: 8px; 
+  }
+  .main-nav__item--cta a:hover,
+  .main-nav__item--cta a:active{
+    background: #fa923f;
+    color: #310330;
+    border: none;
+  }
+
+.main-footer {
+    color: #310330;
+    padding: 32px;
+    margin-top: 48px;
+  }
+  
+  .main-footer__links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+  }
+  
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+  }
+  .main-footer__link > a {
+    color: #fa923f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .main-footer__link > a:hover,
+  .main-footer__link > a:active {
+    color: #521751;
+  }
