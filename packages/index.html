@@ -3,57 +3,60 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>iFreelancers</title>
+    <link rel="shortcut icon" href="favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../shared.css">
-    <link rel="stylesheet" href="./packages.css">
+    <link rel="stylesheet" href="packages.css">
 </head>
 
 <body>
+    <div class="background"></div>
     <header class="main-header">
         <div>
-            <a href="../index.html" class="main-header__brand">iFreelancers</a>
+            <a href="../index.html" class="main-header__brand">
+                iFreelancers
+            </a>
         </div>
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
-                    <a href="../hosting/index.html">Hosting</a>
+                    <a href="index.html">Packages</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="../customers/index.html">Customers</a>
+                    <a href="../customers/index.html">Clents</a>
                 </li>
                 <li class="main-nav__item main-nav__item--cta">
-                    <a href="/packages/index.html">Packages</a>
+                    <a href="../start-hosting/index.html">Start Hosting</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="section-plus">
+        <section class="package" id="plus">
             <a href="#">
-                <h1 class="section-header-plus">Our PLUS Plan</h1>
-                <h2>The most popular choice amongst our clentelle.</h2>
-                <p>Benefit from our vast reach of MOBA(Moringa Old Boys Association) support, with experienced devs who know their content inside out.</p>
+                <h1 class="package__title">Our PLUS Plan</h1>
+                <h2 class="package__badge">RECOMMENDED</h2>
+                <h2 class="package__subtitle">The most popular choice amongst our clentelle.</h2>
+                <p class="package__info">Benefit from our vast reach of MOBA(Moringa Old Boys Association) support, with experienced devs who know their content inside out.</p>
             </a>
         </section>
-        <section class="section free">
+        <section class="package" id="free">
             <a href="#">
-                <h1 class="section-header">Our BASIC Plan</h1>
-                <h2>An extremely solid start for your portfolio website.</h2>
-                <p>Get started immediately!</p>
+                <h1 class="package__title">Our BASIC Plan</h1>
+                <h2 class="package__subtitle">An extremely solid start for your portfolio website.</h2>
+                <p class="package__info">Get started immediately!</p>
             </a>
         </section>
         <div class="clearfix"></div>
-        <section class="section">
+        <section class="package" id="premium">
             <a href="#">
-                <h1 class="section-header">Our PREMIUM Plan</h1>
-                <h2>All your enterprise needs. Instant support, guaranteed uptime. </h2>
-                <p>When you need your portal, you can always get additional pointers from our team</p>
+                <h1 class="package__title">Our PREMIUM Plan</h1>
+                <h2 class="package__subtitle">All your enterprise needs. Instant support, guaranteed uptime. </h2>
+                <p class="package__info">When you need your portal, you can always get additional pointers from our team</p>
             </a>
         </section>
-
     </main>
     <footer class="main-footer">
         <nav>

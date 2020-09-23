@@ -4,7 +4,7 @@
 }
 
 #product-overview {
-  background: url('log.jpeg');
+  background: url('./images/log.jpeg');
   color: #fa923f;
   height: 527px;
   padding: 20px;

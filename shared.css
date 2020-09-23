@@ -30,6 +30,8 @@
   .main-header {
     width: 100%;
     padding: 8px 16px;
+    position: fixed;
+    background: white;
   }
   .main-header__brand {
     color: #521751;

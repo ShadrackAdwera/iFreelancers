@@ -1,58 +1,88 @@
-.section {
-    padding: 20px;
-    border: 5px solid #521751;
-    margin: 10px 30px;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+main {
+    padding-top: 32px;
 }
-.section:hover,
-.section:active {
-    border: 5px solid #fa923f;
+
+.background {
+    background: url("../images/packages-background.jpeg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
 }
-.section-plus {
-    padding: 20px;
-    border: 5px solid #fa923f;
-    background: #521751;
-    text-align: center;
-    margin: 10px 30px;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+
+.package {
+    width: 80%;
+    margin: 16px 8px;
+    border: 4px solid #521751;
+    position: relative;
 }
-.section-header-plus {
-    text-align: center;
-    text-decoration: underline;
+
+.package:hover,
+.package:active {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: #fa923f;
+    /* border-color: #ff5454 !important; */
 }
-.section-plus p {
-    color: #521751;
-    background: #fa923f;
-    padding: 24px;
-    text-align: center;
-}
-.section-plus a {
+
+.package a {
     text-decoration: none;
-    color:  #fa923f;
+    color: inherit;
+    display: block;
+    padding: 32px;
 }
-.section-plus:hover,
-.section-plus:active {
-    border: 5px solid #521751;
-}
-.section a {
-    text-decoration: none;
-    color:  #521751;
-}
-.section p {
+
+.package__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
     background: #fa923f;
-    padding: 24px;
-    text-align: center;
+    padding: 8px;
 }
-.section-header {
-    text-align: center;
-    text-decoration: underline;
+
+.package__subtitle {
+    color: #6e096d;
 }
-.section h2 {
-    text-align: center;
+
+.package__info {
+    padding: 16px;
+    border: 1px solid #521751;
+    font-size: 20px;
+    color:#521751;
+    background: white;
 }
+
 .clearfix {
     clear: both;
 }
-.free {
+
+#plus {
+    background: #fa923f;
+}
+
+#free {
+    background: rgba(234, 252, 237, 0.95);
     float: right;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
+    text-align: right;
+}
+
+#free:hover,
+#free:active {
+    border-left-color: #ff5454;
+}
+
+#premium {
+    background: #521751;
+}
+
+#premium .package__title {
+    color: white;
+}
+
+#premium .package__subtitle {
+    color: #bbb;
 }
