@@ -4,13 +4,16 @@
 }
 
 #product-overview {
-  background-image: url('./images/log.jpeg'); 
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), 
+  url('./images/log.jpeg') left 10% bottom 35%/cover no-repeat border-box;
+  ;
+  /* background-image: url('./images/log.jpeg'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left 10% bottom 25%;
   background-origin: border-box;
-  background-clip: border-box;
-  height: 567px;
+  background-clip: border-box; */
+  height: 650px;
   padding: 20px;
   width: 100%;
   position: relative;
@@ -100,14 +103,17 @@ color: #633006;
   vertical-align: top;
 }
 .key-feature__image {
- background: tomato;
  width: 128px;
  height: 128px;
- border: 2px solid #424242;
+ border: 1px solid #424242;
  border-radius: 50%;
  margin: 0 auto; 
 }
 
+.key-feature__image img {
+  width: 100%;
+  border-radius: 50%;
+}
 .key-features-description {
   color: #521751;
   font-weight: bold;
