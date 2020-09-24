@@ -4,11 +4,23 @@
 }
 
 #product-overview {
-  background: url('./images/log.jpeg');
-  color: #fa923f;
-  height: 527px;
+  background-image: url('./images/log.jpeg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left 10% bottom 25%;
+  background-origin: border-box;
+  background-clip: border-box;
+  height: 567px;
   padding: 20px;
   width: 100%;
+  position: relative;
+  top: 10px;
+}
+#slogan {
+  color: #fa923f;
+  position: absolute;
+  bottom: 3%;
+  left: 2%;
 }
 
 .plan {
