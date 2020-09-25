@@ -122,7 +122,7 @@ plan__price-plus {
 
 .modal {
   position: fixed;
-  display: none;
+  display: none; 
   z-index: 200;
   top: 20%;
   left: 30%;
@@ -143,8 +143,8 @@ plan__price-plus {
 }
 
 .modal__action {
-  border: 1px solid #0e4f1f;
-  background: #0e4f1f;
+  border: 1px solid #521751;
+  background: #521751;
   text-decoration: none;
   color: white;
   font: inherit;
@@ -154,8 +154,8 @@ plan__price-plus {
 
 .modal__action:hover,
 .modal__action:active {
-  background: #2ddf5c;
-  border-color: #2ddf5c;
+  background:#521751;
+  border-color: #521751;
 }
 
 .modal__action--negative {
