@@ -1,0 +1,35 @@
+.image__div {
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    width: 30rem;
+    height: 20rem;
+}
+.image__div img {
+    width: 100%;
+    height: 100%;
+}
+.image__div p {
+    font-size: 1.2rem;
+}
+@media(max-width: 48rem) and (min-width:25rem){
+    .image__div {
+        width: 22rem;
+        height: 15rem;
+        left: 10%;
+    }
+}
+@media(max-width: 25rem) and (min-width:17.5rem){
+    .image__div {
+        width: 20rem;
+        height: 15rem;
+        left: 5%;
+    }
+}
+@media(max-width: 17.5rem) and (min-width:13.5rem){
+    .image__div {
+        width: 15rem;
+        height: 10rem;
+        left: 3%;
+    }
+}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iFreelancers</title>
     <link rel="shortcut icon" href="favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
@@ -15,20 +15,42 @@
     <div class="background"></div>
     <header class="main-header">
         <div>
-            <a href="../index.html" class="main-header__brand">
-                iFreelancers
-            </a>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a href="../index.html" class="main-header__brand">iFreelancers</a>
         </div>
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
-                    <a href="../start-hosting/index.html">Hosting</a>
+                    <a href="../hosting/hosting.html">Hosting</a>
                 </li>
                 <li class="main-nav__item">
                     <a href="../customers/customers.html">Clents</a>
                 </li>
                 <li class="main-nav__item main-nav__item--cta">
                     <a href="packages.html">Packages</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__items">
+                <li class="mobile-nav__item">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="/hosting/hosting.html">Hosting</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="../customers/customers.html">Clients</a>
+                </li>
+                <li class="mobile-nav__item mobile-nav__item--cta">
+                    <a href="packages.html">Packages</a>
+                </li>
+                <li class="close-side-nav">
+                    <p>Close</p>
                 </li>
             </ul>
         </nav>
@@ -62,14 +84,15 @@
         <nav>
             <ul class="main-footer__links">
                 <li class="main-footer__link">
-                    <a href="#">Support</a>
+                    <a href="http://adwera-portfolio.web.app/" target="_blank" rel="noopener noreferrer">Support</a>
                 </li>
                 <li class="main-footer__link">
-                    <a href="#">Terms of Use</a>
+                    <a href="https://en.wikipedia.org/wiki/Terms_of_service" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                 </li>
             </ul>
         </nav>
     </footer>
+    <script defer src="../shared.js"></script>
 </body>
 
 </html>
