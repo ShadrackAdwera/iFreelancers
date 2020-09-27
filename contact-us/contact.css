@@ -37,7 +37,7 @@ main {
     outline: none;
     padding: 0.2rem 0.5rem;
 }
-.signup-form input:focus,
+.signup-form input:not([type="checkbox"]):focus,
 .signup-form select:focus {
     border-color: #fa923f;
 }
@@ -48,6 +48,21 @@ main {
 {
     display: inline-block;
     width: auto;
+    vertical-align: bottom;
+}
+
+.signup-form input[type="checkbox"] {
+    border: 1px solid #ccc;
+    background: white;
+    width: 1rem;
+    height: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.signup-form input[type="checkbox"]:checked {
+    background: #fa923f;
+    border: #521751;
 }
 
 .signup-form button[type="submit"] {
