@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 #product-overview {
   background: url('./images/bacc.jpeg') right 10% bottom 45% / cover no-repeat border-box;
   /* background-image: url('./images/log.jpeg'); 
