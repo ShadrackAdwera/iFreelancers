@@ -70,6 +70,17 @@ main {
     margin-top: 1rem;
 }
 
+/* .signup-form :invalid {
+    background-color: red;
+    background: rgb(255, 133, 133) !important;
+} */
+
+/* .signup-form input.invalid,
+.signup-form select.invalid
+{
+border-color: red;
+} */
+
 @media(min-width: 48rem) {
     .signup-form {
         margin: auto;
