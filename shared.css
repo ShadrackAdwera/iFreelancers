@@ -34,7 +34,7 @@ main {
 .main-header__brand {
   color: #521751;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   vertical-align: middle;
   text-shadow: 5px 5px 2px rgba(185, 180,180);
@@ -120,12 +120,15 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
 }
 .main-footer__link > a {
   color: #fa923f;
@@ -177,8 +180,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 0;
-  text-align: center;
 }
 
 .mobile-nav__item {
