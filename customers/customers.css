@@ -70,15 +70,13 @@
     .testimonial {
       margin: 4rem auto; 
       max-width: 1096px;
+      display: flex;
+      justify-content: center;
     }
     .testimonial__image-container {
-      display: inline-block;
-      vertical-align: middle;
       box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
     }
     .testimonial__info {
-      display: inline-block;
-      vertical-align: middle;
       width: 30%;
     } 
   }

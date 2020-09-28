@@ -95,18 +95,23 @@ plan__price-plus {
 }
 
 @media(min-width: 48rem) {
-  .plan {
-    display: inline-block;
-    width: 30%;
-    margin: 0 3rem;
-    vertical-align: middle;
-    min-width: 13.9rem;
-    max-width: 20rem;
-  }
   .plan-list {
     width: 100%;
     margin: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan {
+    width: 30%;
+    margin: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 13.9rem;
+    max-width: 20rem;
+  }
+  .plan__others {
+    height: 30rem;
   }
 }
 
